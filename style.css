@@ -1,0 +1,97 @@
+*{margin:0; padding: 0; outline: none;
+    box-sizing: border-box;
+}
+html, body{
+    width: 100%;
+    font-size: 18px;
+}
+
+/* Header */
+.header{
+    display: flex;
+    overflow-x: auto;
+    text-align: center;
+    padding: 10px 0;
+    position: sticky;
+    top: 0;
+    background-color: aqua;
+    font-weight: 700;
+    
+}
+
+.header p{
+    width: 33%;
+    display: inline-block;
+    
+}
+
+.navbar{
+    width: 66%;
+    display: inline-block;
+    
+}
+
+.navbar a{
+    width: 48%;
+    display: inline-block;
+    text-decoration: none;
+}
+
+/* Main */
+
+.main{
+    width: 100%;
+    box-sizing: border-box;
+    padding: 10px;
+    display: inline-block;
+    margin-bottom: 10px;
+}
+
+.skill{width: 50%; float: left;}
+.cert{width: 50%; float: right;}
+
+.slider{
+    display: flex;
+    overflow-x: auto;
+    overflow-y: hidden;
+    padding: 10px;
+}
+
+.slider img{
+    width: 160px;
+    margin-right: 10px;
+    border-radius: 5px;
+}
+
+.skills img{
+    width: 100px;
+    display: flex;
+    align-items: center;
+}
+
+.projects{
+    width: 100%;
+
+}
+
+iframe{
+    width: 49.5%;
+    height: 300px;
+    margin-left: auto;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    box-shadow: 0 0 2px;
+}
+
+.footer{
+    text-align: center;
+}
+
+.footer i{
+    font-size: 36px;
+}
+@media only screen and (max-width:600px){
+    .skill, .cert, iframe{
+        width: 100%;
+    }
+}
