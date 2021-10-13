@@ -42,7 +42,7 @@ html, body{
 .headerText{
     padding: 2px;
 }
-.navbar a:hover{
+a:hover{
     background-color: rgba(221, 50, 64, 0.76);
     color: antiquewhite;
     border-radius: 5px;
@@ -83,11 +83,27 @@ html, body{
 
 .projects{
     width: 100%;
-
 }
 
-iframe{
+.iframes{
+    display: inline-block;
     width: 49.5%;
+    text-align: center;
+    justify-content: center;
+    margin-bottom: 10px;
+    
+}
+a{
+    text-decoration: none;
+    font-weight: 700;
+    color: #000;
+    padding: 5px;
+}
+
+
+iframe{
+    width: 100%;
+    display: inline-block;
     height: 300px;
     margin-left: auto;
     margin-bottom: 10px;
@@ -123,6 +139,9 @@ iframe{
         width: 48%;
     }
 
+    .iframes{
+        width: 100%;
+    }
     .skill, .cert, iframe{
         width: 100%;
     }
